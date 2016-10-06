@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  margin: 30px;
+
+}
+
+header {
+  text-align: left;
+}
+
+/*section {
+  text-align: right;
+}*/
+
+main {
+text-align: right;
+}
+ footer {
+   text-align: center;
+   font-size: 10px;
+ }

@@ -1,5 +1,22 @@
+html {
+  background: url(e3LYe57.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body {
+    		height: 100%;
+    		margin: 0;
+    	}
+
+section {
+  min-height: 100%;
+}
+
 body {
-  text-align: center;
+  text-align: center; /*THE WHOLE BODY IS CENTERED FYI */
   margin: 30px;
   display: flex;
   flex-direction: column;
@@ -18,10 +35,25 @@ text-align: right;
  }
 
 page {
-  height: 100%;
   flex-wrap: nowrap;
+  align-items: stretch;
 }
 
 nav a {
   text-decoration: none;
+}
+/*
+#background {
+  background: url(F7oKLjB.jpg) fixed;
+  background-image: url(F7oKLjB.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  overflow: scroll;
+}*/
+
+h1 {
+  color: #F0413E;
+  background-color: transparent;
+  padding-left: 5%;
 }

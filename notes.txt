@@ -1,0 +1,24 @@
+-need new branch for nav bar options
+
+-find a dope background
+
+-find some dope fonts
+
+-figure out how to do full page background fixed scrolling; each div is min-height 100%
+
+-figure out how to make name span rotate through other descriptors
+
+preview fonts: https://fonts.google.com/selection?selection.family=Archivo+Black|Dosis:400,700|Playfair+Display+SC|Quicksand
+
+<span class="rotate-words">
+    <span class="rotate-out">web development.</span>
+    <span class="rotate-out">tech.</span>
+    <span class="rotate-in active">coffee.</span>
+    <span class="rotate-out">startups.</span>
+    <span class="rotate-out">product management.</span>
+    <span class="rotate-out">theatre.</span>
+    <span class="rotate-out">behavioral economics.</span>
+</span>
+----option to rotate on hover: i am (about) --i like (hobbies) --i know/practice (languages) --
+
+image minimize on scrolling down

@@ -6,6 +6,23 @@ html {
   background-size: cover;
 }
 
+/*video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(vintage-music-white-sound.jpg) no-repeat;
+  background-size: cover;
+}*/
+
 html, body {
     		height: 100%;
     		margin: 0;
@@ -23,15 +40,15 @@ body {
 }
 
 header {
-  text-align: left;
+  text-align: center;
   color: #000000;
   background-color: transparent;
-  padding-left: 5%;
-  font-family: 'Archivo Black', sans-serif;
+  /*padding-left: 5%;*/
+  font-family: 'quicksand', sans-serif;
 }
 
 main {
-text-align: right;
+text-align: center;;
 }
 
 footer {
@@ -39,15 +56,17 @@ footer {
    font-size: 10px;
  }
 
-page {
+.page {
   flex-wrap: nowrap;
   align-items: stretch;
+  min-height: 100vh;
 }
 
 
 h1 {
   font-size: 60px;
   margin-bottom: 0px;
+  text-transform: lowercase;
 }
 
 h2 {                     /*section headings*/
@@ -55,6 +74,7 @@ h2 {                     /*section headings*/
   /*margin-top: 0;*/
   color: gray;
   font-family: dosis;
+  text-transform: lowercase;
 }
 
 h3 {                     /*title*/
@@ -62,6 +82,7 @@ h3 {                     /*title*/
   margin-top: 0;
   color: gray;
   font-weight: lighter;
+  text-transform: lowercase;
 }
 
 nav {
@@ -69,7 +90,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center 1 1 auto;
-  width: 80%;
+  width: 90%;
   margin-bottom: 70px;
 }
 
@@ -89,7 +110,7 @@ nav a {
  }*/
 
 p {
-  width: 65%;
+  width: 90%;
 }
 
 .bighead {
@@ -97,6 +118,7 @@ p {
   height: 200px; /*change this*/
   flex-direction: row;
   align-items: center;
+  text-align: center;
   margin-top: 0px;
   margin-left: 10px;
 }

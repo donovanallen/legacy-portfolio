@@ -1,6 +1,8 @@
 -need new branch for nav bar options
 
 -find a dope background
+--video
+---try shortening and slowing video playback
 
 -find some dope fonts
 

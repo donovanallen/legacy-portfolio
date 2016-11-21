@@ -24,3 +24,175 @@ preview fonts: https://fonts.google.com/selection?selection.family=Archivo+Black
 ----option to rotate on hover: i am (about) --i like (hobbies) --i know/practice (languages) --
 
 image minimize on scrolling down
+
+
+vvvvvvvv OLD CSS vvvvvvvvv
+/*html {
+  background: url(vintage-music-white-sound.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+/*video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(vintage-music-white-sound.jpg) no-repeat;
+  background-size: cover;
+}*/
+
+/*html, body {
+    		height: 100%;
+    		margin: 0;
+    	}*/
+
+section {
+  min-height: 100%;
+}
+
+body {
+  text-align: center; /*THE WHOLE BODY IS CENTERED FYI */
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  /*vertical-align: middle;*/
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  color: #000000;
+  height: 108px;
+  line-height: 108px;
+  background-color: transparent;
+  padding-left: 5%;
+  font-family: 'quicksand', sans-serif;
+  transition: all 0.6s ease;
+  display: flex;
+}
+
+header.sticky {
+  font-size: 12px;
+  line-height: 20px;
+  height: 20px;
+  background: gray;
+  text-align: left;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/*img.sticky {
+  height: 12px;
+}*/
+
+main {
+text-align: center;
+display: inline-block;
+
+}
+
+footer {
+   text-align: center;
+   font-size: 10px;
+ }
+
+.page {
+  flex-wrap: nowrap;
+  align-items: stretch;
+  min-height: 100vh;
+  display: block;
+}
+
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  text-transform: lowercase;
+}
+
+h2 {                     /*section headings*/
+  font-size: 40px;
+  /*margin-top: 0;*/
+  color: gray;
+  font-family: dosis;
+  text-transform: lowercase;
+}
+
+h3 {                     /*title*/
+  font-size: 40px;
+  margin-top: 0;
+  color: gray;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+
+h3.sticky {
+  font-size: 15px;
+}
+
+navbar {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center 1 1 auto;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: quicksand, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFAA30;
+  display: inline-block;
+  margin: 0 auto;
+}
+ /*navbar {
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+ }*/
+
+p {
+  width: 90%;
+}
+
+.bighead {
+  display: flex;
+  height: 200px; /*change this*/
+  flex-direction: column;
+  align-items: center;
+  /*text-align: center;*/
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.circular--square {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  vertical-align: middle;
+}
+^^^^^^ CSS ^^^^^^

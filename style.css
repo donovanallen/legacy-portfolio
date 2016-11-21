@@ -1,3 +1,47 @@
 body {
   text-align: center;
+  background-image: url("https://static.pexels.com/photos/35796/amazing-beautiful-beauty-blue.jpg");
+}
+
+h2{
+  font-family: arial;
+  font-size: 50px;
+  margin-bottom: auto;
+  color: white;
+  text-transform: lowercase;
+}
+
+h3{
+
+}
+
+p{
+  font-family: georgia
+}
+
+#section0{
+
+}
+#section1{
+
+}
+#section2{
+
+}
+#section3{
+
+}
+#section4{
+
+}
+
+#headshot{
+  height: 120px;
+  border-radius: 100%;
+  border: 1px dotted white;
+  padding: 5px;
+}
+
+.iconlinks{
+  margin: 10px
 }

@@ -1,14 +1,24 @@
 -need new branch for nav bar options
 
--find a dope background
---video
----try shortening and slowing video playback
+-dope fonts
+--utilize bold and thin
 
--find some dope fonts
+-weekly picks (http://kimgoulbourne.com/)
+--spotify song/playlist
+--podcast
+--latest project
 
--figure out how to do full page background fixed scrolling; each div is min-height 100%
+-nav links go to sections
 
--figure out how to make name span rotate through other descriptors
+-photo minimizes on scroll
+
+-enter content
+
+-contact links(icons?)
+
+-skills icons (languages, frameworks, etc.)
+
+
 
 preview fonts: https://fonts.google.com/selection?selection.family=Archivo+Black|Dosis:400,700|Playfair+Display+SC|Quicksand
 

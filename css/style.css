@@ -1,18 +1,32 @@
 body {
   text-align: center;
-  background-color: gray;
+  /*background-color: gray;*/
+}
+
+html{
+}
+
+span{
+  font-family: 'Comfortaa', cursive;
+  color: orange;
 }
 
 h2{
   font-family: arial;
-  font-size: 50px;
-  margin-bottom: auto;
+  font-size: 90px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   color: white;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
+  font-family: 'Bungee Hairline', sans-serif;
 }
 
 h3{
 color: white;
+font-family: 'Trirong', cursive;
+font-size: 40px;
+margin-top: 0px;
+padding-top: 0px;
 }
 
 hr{
@@ -22,14 +36,14 @@ hr{
 
 p{
   font-family: georgia;
-  width: 80%;
   text-align: center;
-  border: 1px solid red;
-  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #section0{
-
+  background-image: url('../gray_gray_pattern.png');
+  background-size: cover;
 }
 #section1{
 
@@ -45,18 +59,22 @@ p{
 }
 .section{
   text-align: center;
-  position: relative;
+  /*position: relative;*/
 }
 
 #headshot{
-  height: 120px;
+  height: 150px;
   border-radius: 100%;
-  border: 1px dotted orange;
+  border: 1px solid white;
   padding: 5px;
 }
 
 .iconlinks{
-  margin: 10px
+  margin: 10px;
+}
+
+.navlogo{
+
 }
 
 .navlinks{
@@ -82,10 +100,12 @@ nav{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: white;
-  border-bottom: 2px solid orange;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*background: transparent;*/
+  /*border-bottom: 2px solid orange;*/
+  position: fixed;
+  width: 100%;
 }
 
 /*span{
@@ -95,7 +115,10 @@ nav{
 
 .fadeIn{
   margin-bottom: auto;
+  margin-top: 0px;
+  padding-top: 0px;
   position: relative;
+  /*border: 1px solid red;*/
 }
 .fadeIn span{
 	animation: fadeEffect 12.5s linear infinite 0s;
@@ -109,6 +132,7 @@ nav{
   width: 100%;
   text-align: center;
   margin-left: -50%;
+  margin-top: 0px;
 }
 .fadeIn span:nth-child(2){
 	animation-delay: 2.5s;

@@ -6,38 +6,48 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Donovan Allen</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Baloo+Bhaina|Bungee|Bungee+Hairline|Cinzel+Decorative|Comfortaa|Josefin+Slab|Julius+Sans+One|Kelly+Slab|Kumar+One|Kumar+One+Outline|Merienda|Nixie+One|Poiret+One|Rajdhani|Roboto+Slab|Suez+One|Trirong|Unica+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-        $("#demosMenu").change(function(){
-          window.location.href = $(this).find("option:selected").attr("id") + '.html';
-        });
-    });
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $("#demosMenu").change(function(){
+            window.location.href = $(this).find("option:selected").attr("id") + '.html';
+          });
+      });
     </script>
     <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                anchors: ['start-info', 'about-info', 'portfolio-info', 'contact-info'],
-                menu: '#menu',
-                scrollingSpeed: 800,
-                slidesNavigation: true
+      $(document).ready(function() {
+          $('#fullpage').fullpage({
+              anchors: ['start-info', 'about-info', 'portfolio-info', 'contact-info'],
+              menu: '#menu',
+              scrollingSpeed: 800,
+              slidesNavigation: true
 
 
-            });
-        });
+          });
+      });
+    </script>
+    <script>
+    var pattern = Trianglify({
+      width: window.innerWidth,
+      height: window.innerHeight
+    });
+    document.body.appendChild(pattern.canvas())
     </script>
 </head>
 
 <body>
   <nav>
-    <div class="">
+    <div class="navlogo">
       <span>donovan.allen</span>
     </div>
     <div class="navlinks">
@@ -68,7 +78,7 @@
     <div class="section" id="section0">
       <img src="DonovanAllen.jpg" alt="DonovanAllen" id="headshot" />
 
-        <h2>Donovan Allen</h2>
+        <h2>donovan allen</h2>
           <div class="fadeIn">
             <span><h3>web developer</h3></span>
             <span><h3>creator</h3></span>
@@ -89,7 +99,7 @@
 
     <div class="section" id="section1">
       <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro molestiae doloremque, quas omnis, eius fugiat! Dolores alias vitae temporibus odio amet consequuntur. Natus magni odio distinctio animi, culpa ex ipsum incidunt vero, assumenda itaque perspiciatis aliquid, consequatur explicabo commodi. Consectetur quod delectus omnis, obcaecati placeat tenetur dolor quaerat eligendi fugiat.</p>
+        <p>Hey, I'm Donovan, a web developer currently living in Washington, D.C. Check out some of my work below!</p>
     </div>
 
 
@@ -107,7 +117,7 @@
 
 
     <div class="section" id="section3">
-      <h2>Resume</h2>
+      <h2>Story</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem earum veniam quos dolores minima voluptates deserunt beatae error quo sequi ab quis, pariatur dignissimos esse perspiciatis temporibus. Doloribus ex, veritatis magni consequatur explicabo nulla laudantium. Voluptates non, voluptatibus cum nobis animi repellendus. Adipisci, natus? Consequuntur aperiam vel fugiat voluptatum expedita sequi reiciendis perferendis quibusdam itaque enim saepe veniam reprehenderit animi tenetur dolor accusantium vero pariatur aut laudantium eum beatae laborum, eius quod. Dolorem sequi id magni suscipit doloribus quis, repellendus, dolores temporibus, cupiditate, odit libero ab. Alias, libero, numquam corrupti in quibusdam deserunt vitae minima odit dicta, animi nihil.</p>
     </div>
 
@@ -127,4 +137,5 @@
 </footer>
 </div>
 
+</html>
 </html>

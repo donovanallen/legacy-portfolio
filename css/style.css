@@ -1,6 +1,7 @@
 body {
   text-align: center;
   /*background-color: gray;*/
+  background-image: url('../gray_gray_pattern.png');
 }
 
 html{
@@ -42,7 +43,6 @@ p{
 }
 
 #section0{
-  background-image: url('../gray_gray_pattern.png');
   background-size: cover;
 }
 #section1{
@@ -60,6 +60,7 @@ p{
 .section{
   text-align: center;
   /*position: relative;*/
+
 }
 
 #headshot{

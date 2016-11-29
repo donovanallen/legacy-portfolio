@@ -1,7 +1,10 @@
 body {
   text-align: center;
   /*background-color: gray;*/
-  background-image: url('../gray_gray_pattern.png');
+  /*background-image: url('../red-wall.jpg');*/
+  background-image: url('../black-forest-birdseye.jpg');
+  /*background-image: url('../palm-reflections.jpg');*/
+  background-size: cover;
 }
 
 html{
@@ -17,7 +20,7 @@ h2{
   font-size: 90px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  color: white;
+  color: orange;
   /*text-transform: lowercase;*/
   font-family: 'Bungee Hairline', sans-serif;
 }
@@ -28,10 +31,11 @@ font-family: 'Trirong', cursive;
 font-size: 40px;
 margin-top: 0px;
 padding-top: 0px;
+margin-bottom: 10px;
 }
 
 hr{
-  border-color: orange;
+  border-color: white;
   position: relative;
 }
 
@@ -40,6 +44,12 @@ p{
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
+  font-size: 40px;
+  color: white;
+}
+
+#section3 p{
+  font-size: 20px;
 }
 
 #section0{
@@ -64,7 +74,7 @@ p{
 }
 
 #headshot{
-  height: 150px;
+  height: 120px;
   border-radius: 100%;
   border: 1px solid white;
   padding: 5px;
@@ -83,7 +93,7 @@ padding-right: 10px;
 }
 
 .navlink{
-  color: gray;
+  color: lightgray;
   text-decoration: none;
 }
 .navlink:visited{
@@ -125,7 +135,7 @@ nav{
 	animation: fadeEffect 12.5s linear infinite 0s;
 	-ms-animation: fadeEffect 12.5s linear infinite 0s;
 	-webkit-animation: fadeEffect 12.5s linear infinite 0s;
-	color: #00abe9;
+	/*color: #00abe9;*/
 	opacity: 0;
 	overflow: hidden;
 	position: fixed;

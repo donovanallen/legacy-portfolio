@@ -31,8 +31,6 @@
               menu: '#menu',
               scrollingSpeed: 800,
               slidesNavigation: true
-
-
           });
       });
     </script>
@@ -44,10 +42,10 @@
       <span>da</span>
     </div>
     <div class="navlinks">
-      <a href="section1" class="navlink">About</a> |
-      <a href="section2" class="navlink">Portfolio</a> |
-      <a href="section3" class="navlink">Story</a> |
-      <a href="section4" class="navlink">Contact</a>
+      <a href="#section1" class="navlink">• About</a>
+      <a href="#section2" class="navlink">• Portfolio</a>
+      <a href="#section3" class="navlink">• Story</a>
+      <a href="#section4" class="navlink">• Contact</a>
     </div>
   </nav>
   <div id="fullpage">
@@ -71,7 +69,7 @@
     <div class="section" id="section0">
       <img src="DonovanAllen.jpg" alt="DonovanAllen" id="headshot" />
 
-        <h2>donovan allen</h2>
+        <h2 class="name">donovan allen</h2>
           <div class="fadeIn">
             <span><h3>web developer</h3></span>
             <span><h3>tinkerer</h3></span>
@@ -82,10 +80,11 @@
           <br>
           <br>
       <hr style="width:50%">
+      <br>
       <div class="quicklinks">
-        <a class="iconlinks" href="mailto:dallen.928@gmail.com" target="_blank"><img src="envelope.png" alt="email" /></a>
-        <a class="iconlinks" href="https://github.com/donovanallen" target="_blank"><img src="github.png" alt="github" /></a>
-        <a class="iconlinks" href="http://www.linkedin.com/in/donovan-allen" target="_blank"><img src="linkedin-button-logo.png" alt="linkedin" /></a>
+        <a class="iconlinks" href="mailto:dallen.928@gmail.com" target="_blank"><img src="envelope-white-128.png" alt="email" class="iconlink" /></a>
+        <a class="iconlinks" href="https://github.com/donovanallen" target="_blank"><img src="github-white-128.png" alt="github" class="iconlink" /></a>
+        <a class="iconlinks" href="http://www.linkedin.com/in/donovan-allen" target="_blank"><img src="linkedin-white-128.png" alt="linkedin" class="iconlink" /></a>
 
       </div>
     </div>
@@ -96,12 +95,14 @@
     </div>
 
     <div class="section" id="section2">
+      <div class="">
       <h2>Portfolio</h2>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" /></div>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" /></div>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" /></div>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" /></div>
+        <div class="slide"><img src="setlist-front.png" alt="" class="portfoliopics" /></div>
+        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" /></div>
+        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" /></div>
+        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" /></div>
     </div>
+  </div>
 
 
     <div class="section" id="section3">
@@ -115,14 +116,25 @@
 
 
     <div class="section" id="section4">
-      <h2>Contact</h2>
-        <div></div>
+      <h2>Contact Me</h2>
+        <div class="contacticons">
+          <a href="mailto:dallen.928@gmail.com" class="contactlinks" target="_blank">
+            <img src="email-circle.png" alt="Email Me" class="contacticon" />
+          </a>
+          <a href="http://www.linkedin.com/in/donovan-allen" class="contactlinks" target="_blank">
+            <img src="linkedin-circle.png" alt="Find me on LinkedIn" class="contacticon" />
+          </a>
+          <a href="#" class="contactlinks">
+            <img src="document-min.png" alt="Check Out My Resume" class="contacticon" />
+          </a>
+        </div>
     </div>
+    <footer>
+      Made and loved by Donovan Allen, 2016
+    </footer>
+
 </body>
 
-<footer>
-  Made and loved by Donovan Allen, 2016
-</footer>
 </div>
 
 </html>

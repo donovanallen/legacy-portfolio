@@ -24,6 +24,20 @@ html.fp-enabled,
     /* IE 11 on Windows Phone 8.1*/
     touch-action: none;
 }
+
+.arrowUp,
+.arrowDown{
+    position:fixed;
+    z-index:99;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-left: -38px;
+    left: 50%;
+}
+
+
 .fp-section {
     position: relative;
     -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */

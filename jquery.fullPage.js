@@ -24,12 +24,12 @@ $(document).ready(function() {
         loopTop: false,
         loopHorizontal: true,
         continuousVertical: false,
-        continuousHorizontal: false,
+        continuousHorizontal: true,
         scrollHorizontally: false,
         interlockedSlides: false,
         dragAndMove: false,
         offsetSections: false,
-        resetSliders: false,
+        resetSliders: true,
         fadingEffect: false,
         normalScrollElements: '#element1, .element2',
         scrollOverflow: false,
@@ -52,7 +52,7 @@ $(document).ready(function() {
         fixedElements: '#header, .footer',
         responsiveWidth: 0,
         responsiveHeight: 0,
-        responsiveSlides: false,
+        responsiveSlides: true,
 
         //Custom selectors
         sectionSelector: '.section',
@@ -69,5 +69,5 @@ $(document).ready(function() {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
-    
+
 });

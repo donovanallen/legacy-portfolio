@@ -14,16 +14,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js">
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-          $("#demosMenu").change(function(){
-            window.location.href = $(this).find("option:selected").attr("id") + '.html';
-          });
-      });
-    </script>
     <script type="text/javascript">
       $(document).ready(function() {
           $('#fullpage').fullpage({
@@ -36,18 +27,20 @@
     </script>
 </head>
 
-<body>
-  <nav>
+<div id="header">
     <div class="navlogo">
       <span>da</span>
     </div>
     <div class="navlinks">
+      <input type='button' Onclick="document.body.style.cssText+=';background-image: url(palm-reflections.jpg);background-repeat: no-repeat; -moz-background-size: cover; -o-background-size: cover;  background-size: cover;'" />
       <a href="#section1" class="navlink">• About</a>
       <a href="#section2" class="navlink">• Portfolio</a>
       <a href="#section3" class="navlink">• Story</a>
       <a href="#section4" class="navlink">• Contact</a>
     </div>
-  </nav>
+  </div>
+<body>
+
   <div id="fullpage">
 
   <!-- <header>
@@ -90,18 +83,31 @@
     </div>
 
     <div class="section" id="section1">
-      <h2>About Me</h2>
-        <p>Hey, I'm Donovan! I'm a full-stack web developer currently based in Washington, D.C. Check out some of my work below!</p>
+        <h2>About Me</h2>
+        <p>Hey, I'm Donovan! I'm a full-stack web developer specializing in Angular, Rails, Javascript, HTML, and CSS and currently based in Washington, D.C. Check out some of my work on the next page!</p>
+        <br>
+        <div id="skillicons">
+          <img src="angular-logo.png" alt="Angular" class="skillicon" />
+          <img src="css3-logo.png" alt="CSS" class="skillicon" />
+          <img src="HTML5-Logo.png" alt="HTML" class="skillicon" />
+          <img src="javascript-logo.png" alt="Javascript" class="skillicon" />
+          <img src="rails-logo.png" alt="Rails" class="skillicon" />
+        </div>
     </div>
 
     <div class="section" id="section2">
-      <div class="">
-      <h2>Portfolio</h2>
-        <div class="slide"><img src="setlist-front.png" alt="" class="portfoliopics" /></div>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" /></div>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" /></div>
-        <div class="slide"><img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" /></div>
-    </div>
+        <div class="slide">
+          <img src="setlist-front.png" alt="" class="portfoliopics" />
+        </div>
+        <div class="slide">
+          <img src="heyimbored-front.png" alt="" class="portfoliopics" />
+        </div>
+        <div class="slide">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" />
+        </div>
+        <div class="slide">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97200&w=400&h=200" alt="" class="portfoliopics" />
+        </div>
   </div>
 
 
@@ -129,9 +135,7 @@
           </a>
         </div>
     </div>
-    <footer>
-      Made and loved by Donovan Allen, 2016
-    </footer>
+
 
 </body>
 

@@ -10,20 +10,20 @@ body {
 html{
 }
 
-span{
+#dalogo{
   font-family: 'Comfortaa', cursive;
   color: lightgray;
   font-size: 25px;
 }
 
-span:hover{
+#dalogo:hover{
   color: orange;
   text-shadow: 1px 1px 8px #FFFFFF;
 }
 
 h2{
   font-family: arial;
-  font-size: 90px;
+  font-size: 100px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   color: white;
@@ -78,9 +78,6 @@ p{
   flex-wrap: wrap;
   background-color: rgba(221, 221, 221, 0.3);
   height: 150px;
-}
-#section3 p{
-  font-size: 20px;
 }
 
 #section0{
@@ -286,4 +283,30 @@ text-transform: lowercase;
 
 .portfoliopics{
   width: 75%;
+  padding: 10px;
+}
+
+#portfoliopicssetlist{
+  border: 1px solid rgba(243, 0, 134, 1.00);
+}
+#portfoliopicshib{
+  border: 1px solid rgba(255, 24, 0, 1.00);
+}
+#portfoliopicstriptunes{
+  border: 1px solid rgba(218, 218, 218, 1.00);
+}
+
+#overlay{
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.portfoliotext{
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5em;
+  color: white;
 }

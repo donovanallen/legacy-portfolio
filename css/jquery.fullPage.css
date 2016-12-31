@@ -49,8 +49,13 @@ html.fp-enabled,
     margin-top: 0px;
     padding-top: 0px;
     vertical-align: middle;
-
+    overflow: hidden;
 }
+
+.fp-slide:hover #overlay {
+  opacity: 1;
+}
+
 .fp-slide, .fp-slidesContainer {
     height: 100%;
     display: block;

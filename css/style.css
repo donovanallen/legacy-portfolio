@@ -5,6 +5,7 @@ body {
   background-image: url('../black-forest-birdseye.jpg');
   /*background-image: url('../palm-reflections.jpg');*/
   background-size: cover;
+  /*border: 1px solid red;*/
 }
 
 html{
@@ -27,7 +28,7 @@ h2{
 
 h3{
 color: white;
-font-family: 'Comfortaa', cursive;
+font-family: 'Raleway', sans-serif;
 font-size: 40px;
 margin-top: 0px;
 padding-top: 0px;
@@ -87,7 +88,7 @@ p{
 .section{
   text-align: center;
   /*position: relative;*/
-
+  height: 100%;
 }
 
 #headshot{
@@ -129,7 +130,8 @@ p{
 
 .navlinks{
 padding-right: 10px;
-font-family: 'Comfortaa', sans-serif;
+/*font-family: 'Comfortaa', sans-serif;*/
+font-family: 'Raleway', sans-serif;
 text-transform: lowercase;
 }
 
@@ -148,7 +150,7 @@ text-transform: lowercase;
   text-decoration: none;
 }
 
-.top-header{
+header{
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -166,6 +168,8 @@ text-transform: lowercase;
   top: 0;
   left: 0;
   position: fixed;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /*span{
@@ -179,6 +183,7 @@ text-transform: lowercase;
   padding-top: 0px;
   position: relative;
   /*border: 1px solid red;*/
+  font-family: 'Raleway', sans-serif;
 }
 .fadeIn span{
 	animation: fadeEffect 25s linear infinite 0s;

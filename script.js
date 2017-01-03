@@ -1,10 +1,19 @@
 $(document).ready(function(){
   console.log("functioning");
 
-
-
-
-
+  // $(window).scroll(function() {
+  //   if ($('#headshot').scrollTop() > 30){
+  //     // $('header').addClass("sticky");
+  //     // $("h1").text("nda");
+  //     // $("h3").hide();  // display: block/none
+  //     console.log("scroll 30");
+  //   }
+  //   else{
+  //     // $('header').removeClass("sticky");
+  //     // $("h1").show("donovan allen")
+  //     console.log("else");
+  //   }
+  // });
 
 
 
@@ -24,15 +33,4 @@ $(document).ready(function(){
   //   }
   // });
   //
-  //   $(window).scroll(function() {
-  //   if ($(this).scrollTop() > 30){
-  //     $('header').addClass("sticky");
-  //     $("h1").text("nda");
-  //     $("h3").hide();  // display: block/none
-  //   }
-  //   else{
-  //     $('header').removeClass("sticky");
-  //     $("h1").show("donovan allen")
-  //   }
-  //   });
 });

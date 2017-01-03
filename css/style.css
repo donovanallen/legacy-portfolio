@@ -112,6 +112,7 @@ p{
 .iconlink{
   height: 30px;
   opacity: 0.5;
+  transition: height 0.5s;
 }
 
 .iconlink:hover{
@@ -147,7 +148,7 @@ text-transform: lowercase;
   text-decoration: none;
 }
 
-#header{
+.top-header{
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -162,7 +163,9 @@ text-transform: lowercase;
   /*position: fixed;*/
   width: 100%;
   /*background-color: rgba(221, 221, 221, 0.3);*/
-  top: 0px;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
 /*span{
@@ -246,6 +249,7 @@ text-transform: lowercase;
   height: 130px;
   opacity: 0.5;
   /*width: 70%;*/
+  transition: border 0.15s;
 }
 
 .contacticon:hover{

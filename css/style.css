@@ -10,17 +10,6 @@ body {
 html{
 }
 
-#dalogo{
-  font-family: 'Comfortaa', cursive;
-  color: lightgray;
-  font-size: 25px;
-}
-
-#dalogo:hover{
-  color: orange;
-  text-shadow: 1px 1px 8px #FFFFFF;
-}
-
 h2{
   font-family: arial;
   font-size: 100px;
@@ -162,7 +151,7 @@ text-transform: lowercase;
   display: flex;
   flex-direction: row;
   height: 50px;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-left: auto;
   margin-right: auto;

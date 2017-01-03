@@ -12,7 +12,7 @@ html{
 
 h2{
   font-family: arial;
-  font-size: 100px;
+  font-size: 120px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   color: white;
@@ -181,9 +181,9 @@ text-transform: lowercase;
   /*border: 1px solid red;*/
 }
 .fadeIn span{
-	animation: fadeEffect 12.5s linear infinite 0s;
-	-ms-animation: fadeEffect 12.5s linear infinite 0s;
-	-webkit-animation: fadeEffect 12.5s linear infinite 0s;
+	animation: fadeEffect 25s linear infinite 0s;
+	-ms-animation: fadeEffect 25s linear infinite 0s;
+	-webkit-animation: fadeEffect 25s linear infinite 0s;
 	/*color: #00abe9;*/
 	opacity: 0;
 	overflow: hidden;
@@ -214,13 +214,38 @@ text-transform: lowercase;
 	-ms-animation-delay: 10s;
 	-webkit-animation-delay: 10s;
 }
+.fadeIn span:nth-child(6){
+	animation-delay: 12.5s;
+	-ms-animation-delay: 12.5s;
+	-webkit-animation-delay: 12.5s;
+}
+.fadeIn span:nth-child(7){
+	animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	-webkit-animation-delay: 15s;
+}
+.fadeIn span:nth-child(8){
+	animation-delay: 17.5s;
+	-ms-animation-delay: 17.5s;
+	-webkit-animation-delay: 17.5s;
+}
+.fadeIn span:nth-child(9){
+	animation-delay: 20s;
+	-ms-animation-delay: 20s;
+	-webkit-animation-delay: 20s;
+}
+.fadeIn span:nth-child(10){
+	animation-delay: 22.5s;
+	-ms-animation-delay: 22.5s;
+	-webkit-animation-delay: 22.5s;
+}
 
 /*FadeIn Animation*/
 @-moz-keyframes fadeEffect{
 	0% { opacity: 0; }
 	5% { opacity: 0; -moz-transform: translateY(0px); }
 	10% { opacity: 1; -moz-transform: translateY(0px); }
-	25% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 0; -moz-transform: translateY(0px); }
 	30% { opacity: 0; -moz-transform: translateY(0px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
@@ -229,7 +254,8 @@ text-transform: lowercase;
 	0% { opacity: 0; }
 	5% { opacity: 0; -webkit-transform: translateY(0px); }
 	10% { opacity: 1; -webkit-transform: translateY(0px); }
-	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	15% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(0px); }
 	30% { opacity: 0; -webkit-transform: translateY(0px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
@@ -238,7 +264,7 @@ text-transform: lowercase;
 	0% { opacity: 0; }
 	5% { opacity: 0; -ms-transform: translateY(0px); }
 	10% { opacity: 1; -ms-transform: translateY(0px); }
-	25% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 0; -ms-transform: translateY(0px); }
 	30% { opacity: 0; -ms-transform: translateY(0px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }

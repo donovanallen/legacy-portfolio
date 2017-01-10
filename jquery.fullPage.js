@@ -47,7 +47,7 @@ $(document).ready(function() {
         controlArrows: true,
         verticalCentered: true,
         sectionsColor : ['#ccc', '#fff'],
-        paddingTop: '3em',
+        paddingTop: 'none',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
         responsiveWidth: 0,

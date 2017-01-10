@@ -5,7 +5,9 @@ body {
   background-image: url('../black-forest-birdseye.jpg');
   /*background-image: url('../palm-reflections.jpg');*/
   background-size: cover;
-  /*border: 1px solid red;*/
+  border: 1px solid blue;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 html{
@@ -77,7 +79,8 @@ p{
 
 }
 #section2{
-
+  padding-top: 20px;
+  margin-top: 0px;
 }
 #section3{
 
@@ -168,8 +171,9 @@ header{
   top: 0;
   left: 0;
   position: fixed;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border: 1px solid pink;
 }
 
 /*span{
@@ -333,4 +337,8 @@ header{
   font-family: 'Comfortaa', cursive;
   font-size: 1.5em;
   color: white;
+  width: 60%;
+  border: 1px solid yellow;
+  margin-left: auto;
+  margin-right: auto;
 }

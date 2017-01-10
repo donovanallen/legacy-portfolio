@@ -9,7 +9,7 @@ html.fp-enabled,
 .fp-enabled body {
     margin: 0;
     /*padding: 0;*/
-    padding-top: 50px;
+    padding-top: 0px;
     overflow:hidden;
 
     /*Avoid flicker on slides transitions for mobile phones #336 */
@@ -47,6 +47,8 @@ html.fp-enabled,
     box-sizing: border-box;
     padding-top: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid red;
 }
 .fp-slide {
     float: left;
@@ -54,11 +56,12 @@ html.fp-enabled,
     padding-top: 0px;
     vertical-align: middle;
     overflow: hidden;
-}
+    border: 1px solid red;
+  }
 
-.fp-slide:hover #overlay {
+/*.fp-slide:hover #overlay {
   opacity: 1;
-}
+}*/
 
 .fp-slide, .fp-slidesContainer {
     height: 100%;

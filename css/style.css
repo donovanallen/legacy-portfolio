@@ -5,7 +5,7 @@ body {
   background-image: url('../black-forest-birdseye.jpg');
   /*background-image: url('../palm-reflections.jpg');*/
   background-size: cover;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   margin-top: 0px;
   padding-top: 0px;
 }
@@ -173,7 +173,7 @@ header{
   position: fixed;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
 }
 
 /*span{
@@ -338,7 +338,7 @@ header{
   font-size: 1.5em;
   color: white;
   width: 60%;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   margin-left: auto;
   margin-right: auto;
 }

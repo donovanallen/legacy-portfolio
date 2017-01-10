@@ -261,3 +261,17 @@ html.fp-enabled,
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
     height: auto !important;
 }
+
+.fp-viewing-start-info #headImg{
+  opacity: 0;
+  /*transition: all 1s ease-out;*/
+}
+
+.fp-viewing-about-info #headshot{
+  transform: translate(-950px, 0px);
+  -webkit-transform: translate(-950px, 0px);
+  -o-transform: translate(-950px, 0px);
+  -moz-transform: translate(-950px, 0px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}

@@ -1,6 +1,18 @@
 $(document).ready(function(){
   console.log("functioning");
 
+  // $('#headshot').position(function() {
+  //   if ($(this).position() < 50){
+  //     $('#headImg').addClass("sticky");
+  //   }
+  //   else{
+  //     $('#headImg').removeClass("sticky");
+  //   }
+  // });
+
+
+
+
   // $(window).scroll(function() {
   //   if ($('#headshot').scrollTop() > 30){
   //     // $('header').addClass("sticky");

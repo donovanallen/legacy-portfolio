@@ -184,7 +184,7 @@ header{
   /*background-color: rgba(221, 221, 221, 0.3);*/
   top: 0;
   left: 0;
-  position: relative;
+  position: fixed;
   margin-bottom: 0px;
   padding-bottom: 0px;
   /*border: 1px solid pink;*/
@@ -325,7 +325,7 @@ header{
 }
 
 .portfoliopics{
-  width: 75%;
+  width: 65%;
   padding: 10px;
 }
 
@@ -356,4 +356,5 @@ header{
   /*border: 1px solid yellow;*/
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 }

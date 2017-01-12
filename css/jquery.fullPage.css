@@ -39,6 +39,25 @@ html.fp-enabled,
     left: 50%;
 }
 
+.arrowDown{
+    bottom: 20px;
+    border-width: 38.5px 34px 0 38.5px;
+    border-color: #fff transparent transparent transparent;
+}
+
+.fp-viewing-start-info .arrowUp{
+  display: none;
+}
+.arrowUp{
+    top: 40px;
+    border-width: 0 38.5px 34px 38.5px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.fp-viewing-contact-info .arrowDown{
+  display: none;
+}
+
 
 .fp-section {
     position: relative;
@@ -48,7 +67,7 @@ html.fp-enabled,
     padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    /*border: 1px solid red;*/
+    /*border: 1px solid yellow;*/
 }
 .fp-slide {
     float: left;
@@ -56,7 +75,7 @@ html.fp-enabled,
     padding-top: 0px;
     vertical-align: middle;
     overflow: hidden;
-    /*border: 1px solid red;*/
+    /*border: 1px solid blue;*/
   }
 
 /*.fp-slide:hover #overlay {
@@ -73,9 +92,10 @@ html.fp-enabled,
     z-index:1;
     height: 100%;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
     transition: all 0.3s ease-out;
+    /*border: 1px solid red;*/
 
 }
 .fp-section.fp-table, .fp-slide.fp-table {

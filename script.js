@@ -1,6 +1,14 @@
 $(document).ready(function(){
   console.log("functioning");
 
+  $('.arrowUp').click(function(){
+    $.fn.fullpage.moveSectionUp();
+  });
+
+  $('.arrowDown').click(function(){
+      $.fn.fullpage.moveSectionDown();
+  });
+
   // $('#headshot').position(function() {
   //   if ($(this).position() < 50){
   //     $('#headImg').addClass("sticky");

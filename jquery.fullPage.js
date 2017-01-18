@@ -8,7 +8,7 @@ $(document).ready(function() {
         navigationPosition: 'right',
         navigationTooltips: ['slide1', 'slide2', 'slide3', 'slide4'],
         showActiveTooltip: false,
-        slidesNavigation: true,
+        slidesNavigation: false,
         slidesNavPosition: 'bottom',
 
         //Scrolling
@@ -20,14 +20,14 @@ $(document).ready(function() {
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
-        loopBottom: false,
+        loopBottom: true,
         loopTop: false,
-        loopHorizontal: true,
+        loopHorizontal: false,
         continuousVertical: false,
-        continuousHorizontal: true,
+        continuousHorizontal: false,
         scrollHorizontally: false,
         interlockedSlides: false,
-        dragAndMove: false,
+        dragAndMove: true,
         offsetSections: false,
         resetSliders: true,
         fadingEffect: false,
@@ -44,7 +44,7 @@ $(document).ready(function() {
         recordHistory: true,
 
         //Design
-        controlArrows: true,
+        controlArrows: false,
         verticalCentered: true,
         sectionsColor : ['#ccc', '#fff'],
         paddingTop: 'none',
